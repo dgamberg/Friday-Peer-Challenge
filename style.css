@@ -1,0 +1,48 @@
+body{
+    font-family: arial;
+}
+
+
+.nav-button {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.index-point {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #9d9487;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.index-point-active {
+    background-color: red;
+}
+.name{
+    font-size: 80px;
+    padding: 100px;
+    text-align: center;
+}
+#prev{
+    position: relative;
+    top:-170px;
+    left: 10px;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+#next{
+    position: relative;
+    top:-170px;
+    left: 750px;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+.controls{
+    margin-left: 25%;
+}
+.main{
+    border: 1px solid #666;
+}
